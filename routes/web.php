@@ -13,13 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $name = request('name');
-    return view('test', [
-        'name' => $name
-    ]);
-});
-
-Route::get('/aboutus', function() {
-    return '<h1> About Us</h1>';
-});
+Route::get('/test', 'HomeController@showTest');
+Route::get('/', 'HomeController@index');
+Rout::get('/aboutus', 'HomeController@aboutus');

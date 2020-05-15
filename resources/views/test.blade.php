@@ -8,7 +8,6 @@
     <title>Pass Request data to View </title>
 </head>
 <body>
-      {{ $name }}
-
+     Welcome to Test file
 </body>
 </html>
