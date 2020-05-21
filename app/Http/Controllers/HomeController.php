@@ -16,6 +16,9 @@ class HomeController extends Controller
         return view('welcome');
     }
 
+    public function contactus() {
+        return view('contactus');
+    }
 
     public function aboutus()
     {
