@@ -17,5 +17,6 @@ Route::get('/test', 'HomeController@showTest');
 Route::get('/', 'HomeController@index');
 Route::get('/aboutus', 'HomeController@aboutus');
 Route::get('contactus', 'HomeController@contactus');
+Route::get('portfolio', 'HomeController@portfulio');
 Route::get('/posts', 'PostController@index');
 

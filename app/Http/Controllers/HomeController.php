@@ -24,4 +24,8 @@ class HomeController extends Controller
     {
         return view('aboutus');
     }
+
+    public function portfulio() {
+        return view('portfolio');
+    }
 }
